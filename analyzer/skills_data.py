@@ -1,0 +1,103 @@
+SKILL_CATEGORIES = {
+    "Programming Languages": [
+        "python", "java", "javascript", "typescript", "c++", "c#", "c", "go", "golang",
+        "rust", "ruby", "php", "swift", "kotlin", "scala", "perl", "r", "matlab",
+        "shell", "bash", "powershell", "sql", "html", "css", "dart", "lua", "julia",
+        "vba", "assembly", "groovy", "elixir", "clojure", "haskell", "objective-c",
+        "visual basic", ".net", "node.js", "nodejs",
+    ],
+    "Data Science & AI": [
+        "machine learning", "deep learning", "artificial intelligence", "nlp",
+        "natural language processing", "computer vision", "neural networks", "pytorch",
+        "tensorflow", "keras", "scikit-learn", "sklearn", "pandas", "numpy", "scipy",
+        "data science", "data analysis", "data mining", "big data", "hadoop", "spark",
+        "pyspark", "dask", "feature engineering", "model deployment", "mlops",
+        "llm", "large language models", "generative ai", "genai", "rag", "langchain",
+        "openai", "hugging face", "transformers", "xgboost", "lightgbm", "catboost",
+        "statistics", "statistical analysis", "regression", "classification",
+        "clustering", "time series", "forecasting", "recommendation systems",
+        "data visualization", "power bi", "tableau", "matplotlib", "seaborn", "plotly",
+        "opencv", "yolo", "reinforcement learning", "anomaly detection", "etl",
+    ],
+    "Web Development": [
+        "react", "react.js", "react native", "angular", "vue", "vue.js", "svelte",
+        "next.js", "nextjs", "redux", "jquery", "bootstrap", "tailwind css", "flask",
+        "django", "fastapi", "django rest framework", "drf", "rest api", "restful",
+        "graphql", "web services", "microservices", "webpack", "vite", "typescript",
+        "html5", "css3", "sass", "less", "ajax", "json", "xml", "websockets",
+        "express", "express.js", "nestjs", "spring boot", "spring", "laravel",
+        "rails", "ruby on rails", "asp.net", "dotnet", "golang web", "gatsby",
+        "nuxt", "three.js", "d3.js", "chart.js", "shadcn",
+    ],
+    "Cloud & DevOps": [
+        "aws", "amazon web services", "azure", "google cloud", "gcp", "cloud computing",
+        "docker", "kubernetes", "k8s", "terraform", "ansible", "jenkins", "ci/cd",
+        "devops", "sre", "site reliability", "linux", "ubuntu", "centos", "serverless",
+        "lambda", "ec2", "s3", "cloudformation", "helm", "prometheus", "grafana",
+        "kafka", "rabbitmq", "nginx", "apache", "git", "github", "gitlab", "bitbucket",
+        "agile", "scrum", "jira", "jenkins pipeline", "argocd", "istio", "opentelemetry",
+    ],
+    "Databases": [
+        "mysql", "postgresql", "postgres", "sqlite", "mongodb", "oracle", "sql server",
+        "redis", "cassandra", "elasticsearch", "dynamodb", "neo4j", "firebase",
+        "firestore", "snowflake", "bigquery", "redshift", "databricks", "hive",
+        "nosql", "pl/sql", "database design", "database management",
+    ],
+    "Mobile Development": [
+        "android", "ios", "flutter", "react native", "swift", "kotlin", "xamarin",
+        "mobile development", "firebase", "google play", "app store", "dart",
+    ],
+    "Cybersecurity": [
+        "cybersecurity", "information security", "network security", "penetration testing",
+        "penetration test", "ethical hacking", "firewall", "encryption", "cryptography",
+        "security audit", "vulnerability assessment", "siem", "owasp", "burp suite",
+        "incident response", "identity and access management", "iam", "zero trust",
+    ],
+    "Soft Skills": [
+        "leadership", "team leadership", "communication", "problem solving", "teamwork",
+        "collaboration", "time management", "critical thinking", "project management",
+        "mentoring", "coaching", "presentation", "negotiation", "stakeholder management",
+        "cross-functional", "agile", "scrum", "kanban", "analytical thinking",
+        "attention to detail", "adaptability", "creativity", "decision making",
+    ],
+    "Tools & Platforms": [
+        "jira", "confluence", "slack", "postman", "swagger", "figma", "photoshop",
+        "illustrator", "excel", "ms excel", "powerpoint", "word", "google analytics",
+        "seo", "sem", "salesforce", "sap", "oracle erp", "service now", "zendesk",
+        "tableau", "power bi", "splunk", "datadog", "new relic", "sonarqube",
+        "jupyter", "colab", "vscode", "visual studio", "eclipse", "intellij",
+        "pycharm", "notion", "trello", "asana", "monday.com", "canva",
+    ],
+}
+
+ALL_SKILLS = sorted({s.lower() for category in SKILL_CATEGORIES.values() for s in category})
+
+EDUCATION_LEVELS = {
+    "phd": 10,
+    "doctorate": 10,
+    "master": 8,
+    "mba": 8,
+    "m.tech": 8,
+    "m.sc": 8,
+    "m.s": 8,
+    "bachelor": 6,
+    "b.tech": 6,
+    "b.e": 6,
+    "b.sc": 6,
+    "b.a": 6,
+    "bca": 5,
+    "diploma": 4,
+    "high school": 2,
+    "12th": 2,
+    "ssc": 1,
+    "10th": 1,
+}
+
+SECTION_HEADINGS = [
+    "education", "experience", "work experience", "employment", "professional experience",
+    "skills", "technical skills", "core competencies", "projects", "academic projects",
+    "personal projects", "certifications", "courses", "summary", "objective", "profile",
+    "about", "achievements", "awards", "publications", "languages", "interests",
+    "hobbies", "volunteer", "contact", "accomplishments", "additional information",
+    "professional summary", "career objective", "extracurricular",
+]

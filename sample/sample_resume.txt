@@ -1,0 +1,49 @@
+John Developer
+john.developer@gmail.com | +1 (555) 123-4567 | linkedin.com/in/johndeveloper
+San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Software Engineer with 4 years of experience building scalable web applications using Python, Django, and React. Strong background in designing REST APIs and microservices, SQL databases, and cloud deployment on AWS. Passionate about clean code, documentation, and mentoring junior developers.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, SQL, HTML, CSS
+Frameworks: Django, Django REST Framework, React, Flask, FastAPI
+Databases: PostgreSQL, MySQL, Redis
+Cloud & DevOps: AWS (EC2, S3, Lambda), Docker, Kubernetes, Jenkins, Git, CI/CD
+Data: Pandas, NumPy, Machine Learning basics, TensorFlow
+Tools: Jira, Postman, Swagger, Linux
+
+WORK EXPERIENCE
+
+Senior Software Engineer
+Acme Technologies | Jan 2023 - Present
+- Led migration of a monolithic REST API to microservices on AWS, improving deployment speed by 40%
+- Designed scalable APIs consumed by mobile and web clients
+- Built real-time notification system with Redis pub/sub and WebSockets
+- Mentored 4 junior developers and introduced clean code review guidelines
+- Reduced API response time by 30% through query optimization and caching
+- Wrote and maintained API documentation using Swagger/OpenAPI
+
+Software Engineer
+Globex Systems | Jun 2021 - Dec 2022
+- Developed Django REST APIs consumed by 100k+ monthly users
+- Implemented unit and integration tests raising coverage from 55% to 90%
+- Automated CI/CD pipelines with Jenkins and Docker, cutting release time in half
+- Designed PostgreSQL schemas and optimized complex queries
+
+Junior Developer
+Initech | Jun 2020 - May 2021
+- Built responsive UI components with React and TypeScript
+- Collaborated with designers to implement Figma mockups into production features
+
+PROJECTS
+- E-commerce Platform: Full-stack Django + React storefront with Stripe payments, deployed on AWS
+- Inventory Dashboard: Flask app visualizing warehouse data with PostgreSQL and Chart.js
+- Open-source contribution: bug fixes and documentation improvements merged into an open-source Python library
+
+EDUCATION
+Bachelor of Technology (B.Tech) in Computer Science
+Indian Institute of Technology, 2020
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate

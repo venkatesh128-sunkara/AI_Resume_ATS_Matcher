@@ -1,0 +1,18 @@
+We are hiring a Senior Backend Engineer to join our platform team. You will design and build scalable APIs and microservices that power our products.
+
+Requirements:
+- 5+ years of experience in backend development
+- Strong proficiency in Python and Django or FastAPI
+- Deep knowledge of REST API design and microservices architecture
+- Experience with PostgreSQL and Redis
+- Hands-on experience with AWS, Docker, and Kubernetes
+- Working knowledge of CI/CD pipelines and Git
+- Familiarity with message queues such as RabbitMQ or Kafka
+- Nice to have: Machine Learning, Pandas, TensorFlow
+
+Bonus points:
+- Experience leading a small team of engineers
+- Contributions to open-source projects
+- Understanding of GraphQL
+
+We value clean code, testing, and documentation.
